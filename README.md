@@ -4,7 +4,7 @@ Quiz 1: What's the output?
 
 ```JavaScript
 const val = [10, 20, 30, 40, 50];
-style="white-space:nowrap;"val.push(val.shift());
+val.push(val.shift());
 
 console.log(val);
 ``` 
