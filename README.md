@@ -34,7 +34,7 @@ function test() {
 test()
 
 console.log(typeof cat);
-console.log(typeof dof);
+console.log(typeof dog);
 ``` 
 
 <details>
