@@ -50,3 +50,27 @@ Now if we <code style="white-space:nowrap;">console.log(typeof cat);</code> it s
 Answer Credit - [Haroon Hayat](https://twitter.com/hanohayat)
 
 </details>
+
+Quiz 3: What's the output? 
+
+```JavaScript
+let x = 1, y = 2, z = 3;
+[x, y, z] = [y, z];
+
+console.log(x, y, z);
+``` 
+
+<details>
+<summary>Answer</summary>
+<code style="white-space:nowrap;">let x = 1, y = 2, z = 3;</code> → This line store x = 1, y = 2 and z = 3 in memory. 
+<br/>
+<code style="white-space:nowrap;">[x, y, z] = [y, z];</code> → In this like if JavaSScript look square brackets on the lift side of assignment operator "=". Then it will inderstand that it is not array but it it destracturing. 
+
+1. So the value of y which is 2 is assign to x. 
+2. Then the value of z which is 3 is assign to y.
+3. And there is nothing which is assign to z. So the value of z is undefined. 
+
+<code style="white-space:nowrap;">console.log(x, y, z);</code> → So answer is 2, 3, undefined
+
+Answer Credit - [Haroon Hayat](https://twitter.com/hanohayat)
+</details>
