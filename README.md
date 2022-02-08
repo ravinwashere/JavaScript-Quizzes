@@ -74,3 +74,20 @@ console.log(x, y, z);
 
 Answer Credit - [Haroon Hayat](https://twitter.com/hanohayat)
 </details>
+
+Quiz 4: What's the output? 
+
+```JavaScript
+const val = 3 && 2 && 1 && 0 && false;
+
+console.log(val);
+```
+<details>
+<summary>Answer</summary>
+3 && 2 ==> goes to 2 because 3 is truthy  <br>
+2 && 1 ==> goes to 1 because 2 is truthy  <br>
+1 && 0 ==> goes to 0 because 1 is truthy  <br>
+0 && false ==> stays at 0 because it's falsy (&& stops when left side is falsy)  <br>
+<br>
+therefore val = 0
+</details>
