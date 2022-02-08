@@ -89,5 +89,7 @@ console.log(val);
 1 && 0 ==> goes to 0 because 1 is truthy  <br>
 0 && false ==> stays at 0 because it's falsy (&& stops when left side is falsy)  <br>
 <br>
-therefore val = 0
+therefore val = 0  <br>
+
+Answer Credit - [Savvas Stephanides](https://twitter.com/SavvasStephnds)
 </details>
