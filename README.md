@@ -1,4 +1,9 @@
-# JavaScript-Quizzes
+<div align="center">
+  <img height="80" src="https://img.icons8.com/color/480/000000/javascript--v1.png">
+  <h1>JavaScript Quizzes</h1>
+
+---
+</div>
 
 ###### 1. What's the output? 
 
