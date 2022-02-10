@@ -118,3 +118,33 @@ Answer Credit - [Savvas Stephanides](https://twitter.com/SavvasStephnds)
 </details>
 
 ---
+
+###### 5. What's the output? 
+
+```JavaScript
+let a = 1 + "1";
+let b = 1 + 1;
+let c = "1" + "1";
+
+if(a === 2) {
+console.log(b);
+} else {
+  console.log(c);
+}
+```
+<details>
+
+<summary><b>Answer</b></summary>
+<p>
+
+`let a - 1 + "1";` → The addition 1 wwith string "1" will convert to "11" string. 
+
+`let b = 1 + 1;` → The addition of two number will be number 2.
+
+`let c = "1" + "1";` → The addition of two string also be string "11".
+
+`if ( a === 2){console.log(b); }else {console.log(c);}` → The condition is checked `(a === 2)` which is wrong because of `a = "11"` so the else block will be execute and print "11" on console screen. 
+
+Answer Credit - [Haroon Hayat](https://twitter.com/hanohayat)
+</p>
+</details>
