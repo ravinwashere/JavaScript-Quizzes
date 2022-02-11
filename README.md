@@ -148,3 +148,21 @@ console.log(b);
 Answer Credit - [Haroon Hayat](https://twitter.com/hanohayat)
 </p>
 </details>
+
+###### 6. What's the output? 
+
+```JavaScript
+console.log( 'A'  >  'a' )
+```
+
+<details>
+
+<summary><b>Answer</b></summary>
+<p>
+
+`False` Because the ascii code for ‘A’ is 65 while for ‘a’ it’s 97. 
+
+So basically the code is doing 65>97 which results into a false.
+
+</p>
+</details>
