@@ -166,3 +166,32 @@ So basically the code is doing 65>97 which results into a false.
 
 </p>
 </details>
+
+###### 7. What's the output? 
+
+```JavaScript
+let nums = [5, 10, 20];
+let sum = nums[1] + nums.sort()[1];
+
+console.log(sum);
+```
+<details>
+
+<summary><b>Answer</b></summary>
+<p>
+
+Answer is `30`
+Dry run:
+sum 
+→ (1st index from [5,10,20]) + (1st index from [10,20,5])
+→ 10 + 20
+→ 30
+
+Explanation:
+
+`sort()` without a callback function considers numbers as strings and hence comparing first character based on their ASCII values, gives sorted result as 1,2,5
+
+Answer Credit - [Shubham Sagar Singh](https://twitter.com/shubhamsagarsin)
+
+</p>
+</details>
