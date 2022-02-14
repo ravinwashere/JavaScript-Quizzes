@@ -196,3 +196,23 @@ Answer Credit - [Shubham Sagar Singh](https://twitter.com/shubhamsagarsin)
 
 </p>
 </details>
+
+###### 8. What's the output? 
+
+```JavaScript
+let a = 4;
+let b = 8;
+
+console.log(1%0 + a + b);
+```
+<details>
+
+<summary><b>Answer</b></summary>
+<p>
+
+Answer is `NaN` 
+
+Because, `1%0` will be `NaN`. If one operand of the operation is 'NaN' then, the result will also be `NaN`.
+
+</p>
+</details>
