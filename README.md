@@ -216,3 +216,24 @@ Because, `1%0` will be `NaN`. If one operand of the operation is 'NaN' then, the
 
 </p>
 </details>
+
+###### 8. What's the output? 
+
+```JavaScript
+let a1 = ["2", "1", "4", "6"];
+let a2 = ["1", "2", "5", "3"];
+
+let val = a1.filter( e => !a2.includes(e) );
+
+console.log(val);
+```
+<details>
+
+<summary><b>Answer</b></summary>
+<p>
+
+Outpit is `["4", "6"]`
+Because that line can be seen as the Maths Set operation a1 - a2. Remove all elements from a1 that are also there in a2
+
+</p>
+</details>
