@@ -237,3 +237,39 @@ Because that line can be seen as the Maths Set operation a1 - a2. Remove all ele
 
 </p>
 </details>
+
+###### 9. What's the output? 
+
+```JavaScript
+function myFunc( ){
+  console.log(this.name);
+}
+
+myFunc.name = "Ravin";
+
+console.log(myFunc( ));
+```
+<details>
+
+<summary><b>Answer</b></summary>
+<p>
+
+Output is `undefined`
+
+4 ways to bind `this`:
+
+1. The `new` keyword (doesn't apply)
+2. Explicit binding (doesn't apply)
+3. Default binding (applies here)✅
+4. Implicit binding (calling from obj prop)
+
+When default binding, `this` references the global scope. 
+
+In this case, `name` is a property of `myFunc`, not the global object.
+
+`global.name` === undefined
+`this.name` === `global.name`
+
+Also, `Function.name` is a read-only property, so even if this worked, the answer would not be 'Ravin'
+</p>
+</details>
