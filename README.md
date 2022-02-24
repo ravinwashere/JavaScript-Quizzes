@@ -273,3 +273,24 @@ In this case, `name` is a property of `myFunc`, not the global object.
 Also, `Function.name` is a read-only property, so even if this worked, the answer would not be 'Ravin'
 </p>
 </details>
+###### 10. What's the output? 
+
+```JavaScript
+const websites = ['youtube', 'udemy'];
+
+websites.length = 0;
+
+console.log(websites[0]);
+```
+<details>
+
+<summary><b>Answer</b></summary>
+<p>
+
+`Undefined`
+
+Setting the length of an array is the same as making it empty so when you try to access the first element it'll be undefined cause it's []
+
+</p>
+</details>
+
