@@ -28,7 +28,7 @@ Let's break it
 
 Output: [20, 30, 40, 10]
 
-Answer Credit - [Shan Shah](https://twitter.com/codewithshan)
+Credit - [Shan Shah](https://twitter.com/codewithshan)
 
 </p>
 
@@ -88,7 +88,7 @@ console.log(x, y, z);
 
 `console.log(x, y, z);` → So answer is 2, 3, undefined
 
-Answer Credit - [Haroon Hayat](https://twitter.com/hanohayat)
+Credit - [Haroon Hayat](https://twitter.com/hanohayat)
 
 </p>
 
@@ -113,7 +113,7 @@ console.log(val);
 
 therefore val = 0 
 
-Answer Credit - [Savvas Stephanides](https://twitter.com/SavvasStephnds)
+Credit - [Savvas Stephanides](https://twitter.com/SavvasStephnds)
 
 </p>
 </details>
@@ -146,7 +146,7 @@ console.log(b);
 
 `if ( a === 2){console.log(b); }else {console.log(c);}` → The condition is checked `(a === 2)` which is wrong because of `a = "11"` so the else block will be execute and print "11" on console screen. 
 
-Answer Credit - [Haroon Hayat](https://twitter.com/hanohayat)
+Credit - [Haroon Hayat](https://twitter.com/hanohayat)
 </p>
 </details>
 
@@ -192,7 +192,7 @@ Explanation:
 
 `sort()` without a callback function considers numbers as strings and hence comparing first character based on their ASCII values, gives sorted result as 1,2,5
 
-Answer Credit - [Shubham Sagar Singh](https://twitter.com/shubhamsagarsin)
+Credit - [Shubham Sagar Singh](https://twitter.com/shubhamsagarsin)
 
 </p>
 </details>
