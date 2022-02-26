@@ -295,3 +295,29 @@ Setting the length of an array is the same as making it empty so when you try to
 </p>
 </details>
 
+###### 11. What's the output? 
+
+```JavaScript
+const string = "Hello developers";
+
+console.log(string.substring(16, 6));
+```
+<details>
+
+<summary><b>Answer</b></summary>
+<p>
+
+substring() method in JavaScript extract characters, between two indies.
+(Note: last index is exclusive.)
+
+If start index is greate than end, arguments are swapped.
+E.g:: (16, 6) == (6, 16)
+So, 
+Starting from 6 index to 16 and it will print
+`developers`
+
+Credit - [Haroon Hayat](https://twitter.com/hanohayat)
+
+</p>
+</details>
+
