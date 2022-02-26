@@ -3,7 +3,7 @@
   <h1>JavaScript Quizzes</h1>
 
 ---
-<span>I post everyday JavaScript quiz on my [Twitter](https://twitter.com/ravinwashere) which I'll also post here! Last updated: <a href=#20200612><b>Feb 24th</b></a> 
+<span>I post everyday JavaScript quiz on my [Twitter](https://twitter.com/ravinwashere) which I'll also post here! Last updated: <a href=#20200612><b>Feb 27th</b></a> 
 </div>
 
 ###### 1. What's the output? 
