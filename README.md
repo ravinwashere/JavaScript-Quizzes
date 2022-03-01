@@ -321,3 +321,25 @@ Credit - [Haroon Hayat](https://twitter.com/hanohayat)
 </p>
 </details>
 
+###### 11. What's the output? 
+
+```JavaScript
+const arr1 = ['x', 'y', 'z'];
+const arr2 = ['y', 'z', 'x'];
+
+console.log(
+  arr1.sort() === arr1, 
+  arr2.sort() === arr2,
+  arr1.sort() === arr2.sort()
+);
+```
+<details>
+
+<summary><b>Answer</b></summary>
+<p>
+
+
+
+</p>
+</details>
+
