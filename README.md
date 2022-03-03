@@ -344,13 +344,14 @@ console.log(
 The comparison between two object will return `TRUE`, if both of object point to the same memory location otherwise they will return `FALSE`.
 
 `console.log(`
+
   `arr.sort() === arr1` → `TRUE`, because both object are refernce to the memory location(both are arr1).
 
   `arr2.sort() == arr2` → `TRUE`, again because both object are reference to same memory.
 
   `arr1.sort() === arr2.sort()` → `FALSE`, because both object are differnt, and object comparison done through memory location. (arr1 !== arr2).
 
-`)`
+`);`
 
 Credit - [Haroon Hayat](https://twitter.com/hanohayat)
 
