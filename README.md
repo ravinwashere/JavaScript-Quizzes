@@ -371,6 +371,11 @@ console.log(b);
 <summary><b>Answer</b></summary>
 <p>
 
+`const b = (a ?? true)` because `('1' == 1)` is `true`. 
+
+Because the nullish operator `( ?? )` is a logical operator that returns its right-hand operand when its left-hand side operand is null or undefined, and otherwise returns its left-hand side operand.
+
+So It will print `True` in console.   
 
 
 Credit - [Haroon Hayat](https://twitter.com/hanohayat)
